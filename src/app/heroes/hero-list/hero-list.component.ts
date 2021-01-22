@@ -6,10 +6,10 @@ import { MessageService } from '../../message.service';
 
 @Component({
     selector: 'app-hero-list',
-    templateUrl: './heroes.component.html',
-    styleUrls: ['./heroes.component.css']
+    templateUrl: './hero-list.component.html',
+    styleUrls: ['./hero-list.component.css']
 })
-export class HeroesComponent implements OnInit {
+export class HeroListComponent implements OnInit {
     selectedHero!: Hero;
     heroes!: Hero[];
 
